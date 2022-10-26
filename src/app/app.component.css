@@ -1,0 +1,34 @@
+.material-buttons {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.card {
+    max-width: 250px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.car-form{
+    width: 400px;
+}
+
+mat-icon{
+    color: hsla(0, 0%, 50%, 0.600);
+}

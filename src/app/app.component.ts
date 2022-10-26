@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'forms-project';
+  dadosUsuario = {
+    nome: '',
+    sobrenome: '',
+    email: '',
+    senha: ''
+  }
+
+  enviarForm(){
+    alert('Formulário Enviado!')
+  }
 }
